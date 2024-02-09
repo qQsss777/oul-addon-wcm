@@ -1,0 +1,6 @@
+build
+node_modules
+.vscode
+dist
+*.tgz
+.DS_STORE
