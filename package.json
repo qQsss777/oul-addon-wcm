@@ -1,0 +1,23 @@
+{
+  "name": "oul-addon-wcm",
+  "version": "0.0.0",
+  "description": "Access to windows credential manager",
+  "main": "dist/WCMAccessor",
+  "scripts": {
+    "test": "node example.js",
+    "configure": "node-gyp configure",
+    "build:debug": "node-gyp build --debug",
+    "build": "node-gyp build",
+    "rebuild": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "pack": "node ./prepare-pack.js build/Release/WCMAccessor.node dist WCMAccessor.node && npm pack"
+  },
+  "author": "Marc Lemoigne",
+  "license": "MIT",
+  "devDependencies": {
+    "node-gyp": "^10.0.1"
+  },
+  "files": [
+    "dist"
+  ]
+}
