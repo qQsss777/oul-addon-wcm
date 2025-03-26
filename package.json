@@ -1,6 +1,6 @@
 {
   "name": "@qQsss777/oul-addon-wcm",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "Access to windows credential manager",
   "main": "dist/WCMAccessor",
   "scripts": {
