@@ -1,12 +1,12 @@
 # oul-addon-wcm
 
 ## Feature
-You can use Windows Credential Manager in NodeJS with this package.
+You can use Windows Credential Manager in NodeJS with this package in a Windows environment.
 
 ## Installation
 
 ### Requirements
-- OS Windows 10 min
+- OS Windows 10 minimum
 - node >= 20
 - python 3.10
 
