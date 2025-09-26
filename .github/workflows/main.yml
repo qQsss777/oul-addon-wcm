@@ -40,7 +40,8 @@ jobs:
       
     - name: Prepare deploy
       run: node ./tools/prepare-pack.js build/Release/WCMAccessor.node dist WCMAccessor.node
-    
+    - name: ls
+      run: ls    
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
