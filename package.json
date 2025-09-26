@@ -18,10 +18,11 @@
     "LICENSE.md"
   ],
   "keywords": [
-    "class",
-    "utils",
-    "proxy",
-    "esm"
+    "windows",
+    "credential",
+    "manager",
+    "nodejs",
+    "addon"
   ],
   "scripts": {
     "test": "node example.js",
