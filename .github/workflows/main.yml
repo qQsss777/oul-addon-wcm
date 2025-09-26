@@ -40,15 +40,15 @@ jobs:
     - name: lsz
       run: ls
     - name: ls vbuilz
-      run: ls build
+      run: ls build/Release
     - name: Prepare deploy
-      run: node ./tools/prepare-pack.js build/Release/WCMAccessor.node dist WCMAccessor.node
+      run: node ./tools/prepare-pack.js ./build/Release/WCMAccessor.node dist WCMAccessor.node
     - name: ls
       run: ls
     - name: ls dist
       run: ls dist
     - name: ls vbuil
-      run: ls build
+      run: ls build/Release
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
