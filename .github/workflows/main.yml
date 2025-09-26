@@ -37,7 +37,10 @@ jobs:
       
     - name: Test
       run: npm run test
-      
+    - name: lsz
+      run: ls
+    - name: ls vbuilz
+      run: ls build
     - name: Prepare deploy
       run: node ./tools/prepare-pack.js build/Release/WCMAccessor.node dist WCMAccessor.node
     - name: ls
